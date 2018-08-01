@@ -14,7 +14,7 @@ The images are filtered using a Laplacian operator for edge detection, and then 
 ### Depth Map
 The images of the filtered stack that contain the highest intensity value pixels are recorded into a single image and scaled to the range 0 to 1 to form a depth map.
 
-<img src="/images/depth_map01.jpg" alt="Depth map 4 images" width="40%"><img src="/images/depth_map02.jpg" alt="Depth map 12 images" width="40%">
+<div style="text-align:center"><img src="/images/depth_map01.jpg" alt="Depth map 4 images" width="45%"><img src="/images/depth_map02.jpg" alt="Depth map 12 images" width="45%"></div>
 
 ### Image Blending
 The depth map is used to combine the in-focus pixels from the original stack images.
