@@ -19,9 +19,9 @@ end
 for i = 1:NUM_IMAGES
     fprintf('Reading Image %d', i);
     if SCENE == 1
-        filename = sprintf('/MATLAB Drive/469 Project 5/images/Scene 1/IMG-08%d.JPG', i + 72);
+        filename = sprintf('/images/Scene 1/IMG-08%d.JPG', i + 72);
     elseif SCENE == 2
-        filename = sprintf('/MATLAB Drive/469 Project 5/images/Scene 2/IMG-08%d.JPG', i + 79);
+        filename = sprintf('/images/Scene 2/IMG-08%d.JPG', i + 79);
     end        
     
     % Get image size from first image and create stack array.
