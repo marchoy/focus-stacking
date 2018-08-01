@@ -3,7 +3,7 @@ Focus stacking is an image processing technique where a series of images focused
 
 ### Image Capture
 A series of images of a static scene are captured at differing focal depths.
-![Focus stack images](/images/focal_stack.png)
+![Focus stack images](/images/focus_stack.png)
 
 ### Image Alignment
 The images in the focus stack are aligned using a calculated lens-to-sensor distance for each image that is proportional to the image size (magnification from lens adjustment) captured by the detector.
@@ -13,7 +13,7 @@ The images are filtered using a Laplacian operator for edge detection, and then 
 
 ### Depth Map
 The images of the filtered stack that contain the highest intensity value pixels are recorded into a single image and scaled to the range 0 to 1 to form a depth map.
-![Depth map 4 images](/images/depth_map01.jpg) ![Depth map 12 images](/images/depth_map02.jpg)
+![Depth map 4 images](/images/depth_map01.jpg =100x100) ![Depth map 12 images](/images/depth_map02.jpg)
 
 ### Image Blending
 The depth map is used to combine the in-focus pixels from the original stack images.
