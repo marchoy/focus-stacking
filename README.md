@@ -3,6 +3,7 @@ Focus stacking is an image processing technique where a series of images focused
 
 ### Image Capture
 A series of images of a static scene are captured at differing focal depths.
+
 ![Focus stack images](/images/focus_stack.png)
 
 ### Image Alignment
