@@ -1,5 +1,5 @@
 # Focus Stacking
-Focus stacking is an image processing technique where a series of images focused at multiple planes are combined allowing full control over depth of field. In this project, focus stacking is implemented to generate an all-in-focus image. The implementation is done in four stages: image capture, alignment, in-focus detection and blending.
+Focus stacking is an image processing technique where a series of images focused at multiple planes are combined allowing full control over depth of field. In this project, focus stacking is implemented to generate an all-in-focus image. The implementation is done in four stages: image capture, alignment, in-focus detection, and blending.
 
 ### Image Capture
 A series of images of a static scene are captured at differing focal depths.
